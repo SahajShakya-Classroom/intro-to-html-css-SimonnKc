@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navigation">
+        <div class="logo">MyPortfolio</div>
+        <ul class="nav-links">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section class="parent" id="Home">
+        <div class="image">
+            <img src="boy.png" alt="Profile Picture" class="profile-pic">
+        </div>
+        <div class="info">
+            <h1 class="name">Simon KC</h1>
+            <p class="bio">A passionate web developer with a knack for 
+                creating engaging user experiences.</p>
+            <div class="contact">
+                <h2>Contact Me</h2>
+                <p><strong>Email:</strong> kcsimon@example.com</p>
+                <button class="contact-button">Get in Touch</button>
+            </div>
+        </div>
+    </section>
+    
+    <section class="about" id="About">
+        <h2>About Me</h2>
+        <table class="about-table">
+            <tr>
+                <th>Category</th>
+                <th>Details</th>
+            </tr>
+            <tr>
+                <td><strong>Name</strong></td>
+                <td>Simon KC</td>
+            </tr>
+            <tr>
+                <td><strong>Profession</strong></td>
+                <td>Web Developer</td>
+            </tr>
+            <tr>
+                <td><strong>Skills</strong></td>
+                <td>HTML, CSS, JavaScript</td>
+            </tr>
+            <tr>
+                <td><strong>Experience</strong></td>
+                <td>Several months in web development</td>
+            </tr>
+            <tr>
+                <td><strong>Interests</strong></td>
+                <td>Riding, Exploring new places</td>
+            </tr>
+            <tr>
+                <td><strong>Location</strong></td>
+                <td>Kathmandu, Nepal</td>
+            </tr>
+        </table>
+       </section>
+    
+    <section class="projects" id="Projects">
+        <h2>My Projects</h2>
+        <p><a class="link" href="routine.html" target="_blank">View My Projects</a></p>
+    </section>
+    
+    <section class="contact" id="Contact">
+        <h2>Contact Me</h2>
+        <p>I'm always excited to connect with fellow developers, potential collaborators, and anyone interested in web development. Fill out the form below and I'll get back to you as soon as possible!</p>
+        
+        <div class="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+            </div>
+            
+            <button type="submit" class="submit-button">Submit</button>
+        </div>
+    </section>
+</body>
+</html>
